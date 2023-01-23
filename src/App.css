@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.limite{
+    width: 100%;
+    max-width: 800px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.topo{
+    background-color: rgb(51, 52, 54);
+    text-align: left;
 }
-
-.App-link {
-  color: #61dafb;
+.ptopo{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+    margin: 0 0 0 20px;
+} 
+section{
+    padding: 30px 0;
+}   
+.banner{
+    padding: 20px 0;
+    height: 100%;
 }
+.banner p{
+    font-size: 25px;
+    margin: 40px 0;
+}
+.linkbanner{
+    margin-bottom: 20px;
+}
+.linkdestaque{
+    font-size: 18px;
+    background-color:  rgb(98, 211, 240);
+    text-decoration: none;
+    padding:10px 20px;
+    color: #000;
+}
+.limitasecao{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 100px 0 20px 0;
+}
+.boxlinguagens{
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(109, 107, 107);
+    box-sizing: border-box;
+}
+footer{
+    background-color: rgb(248, 248, 235);
+    padding: 10px;
+}
+.golddestaque{
+    color: rgb(228, 174, 59);
+}
+.cinzadestaque{
+    background-color:rgb(63, 64, 66) ;
+}
+.azuldestaque{
+    color: rgb(98, 211, 240);
+}
+.brancodestaque{
+    color: #fff;
+}
+h1{
+    font-weight: 500;
+}
+h2{
+    margin: 20px auto 30px auto;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+h3{
+    padding: 10px;
+}
+p{
+    margin: 10px 0;
 }
